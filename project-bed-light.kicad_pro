@@ -602,6 +602,14 @@
     [
       "86193608-8b37-4e1b-8d51-bc4738e07deb",
       "Root"
+    ],
+    [
+      "60a65cd5-732b-4d0a-9a76-a858f336c409",
+      "Reverse Polarity Protection"
+    ],
+    [
+      "6d03b476-ff3a-4bd3-ba69-d58cbf7e3c4a",
+      "TPS6293x Converter"
     ]
   ],
   "text_variables": {}

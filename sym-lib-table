@@ -4,4 +4,5 @@
   (lib (name "2060-452_998-404")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/WAGO_2060-452-998-404/2060-452_998-404.kicad_sym")(options "")(descr ""))
   (lib (name "B3FS-1010P")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/B3FS-1010/B3FS-1010P.kicad_sym")(options "")(descr ""))
   (lib (name "TI_TPS6293x")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/Regulator_Switching/TI_TPS6293x.kicad_sym")(options "")(descr ""))
+  (lib (name "Toshiba_SSM3J328R")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/MOSFET/Toshiba_SSM3J328R.kicad_sym")(options "")(descr ""))
 )
