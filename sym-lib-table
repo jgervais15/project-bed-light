@@ -5,4 +5,6 @@
   (lib (name "B3FS-1010P")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/B3FS-1010/B3FS-1010P.kicad_sym")(options "")(descr ""))
   (lib (name "TI_TPS6293x")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/Regulator_Switching/TI_TPS6293x.kicad_sym")(options "")(descr ""))
   (lib (name "Toshiba_SSM3J328R")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/MOSFET/Toshiba_SSM3J328R.kicad_sym")(options "")(descr ""))
+  (lib (name "WAGO_2060-453-998-404")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/Connector_Wire-to-Board/WAGO_2060-453-998-404.kicad_sym")(options "")(descr ""))
+  (lib (name "TI_TXU0104PWR")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/symbols/Level-Shifter/TI_TXU0104PWR.kicad_sym")(options "")(descr ""))
 )
