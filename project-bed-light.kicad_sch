@@ -2591,7 +2591,7 @@
 		(uuid "68d1cbd9-93b3-4a7b-bd71-a437b5c911e6")
 	)
 	(junction
-		(at 139.7 33.02)
+		(at 144.78 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "756dbc13-9409-42f4-a476-3e85cb2af42f")
@@ -2808,7 +2808,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 33.02) (xy 139.7 30.48)
+			(xy 144.78 33.02) (xy 144.78 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3138,7 +3138,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 38.1) (xy 139.7 33.02)
+			(xy 144.78 38.1) (xy 144.78 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3148,7 +3148,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 38.1) (xy 139.7 38.1)
+			(xy 129.54 38.1) (xy 144.78 38.1)
 		)
 		(stroke
 			(width 0)
@@ -3358,7 +3358,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 33.02) (xy 140.97 33.02)
+			(xy 144.78 33.02) (xy 146.05 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3386,6 +3386,16 @@
 		)
 		(uuid "fe7cc45b-18d5-47b0-8aea-8fbcc0afb231")
 	)
+	(label "regulator_out"
+		(at 130.81 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0737803c-64af-4d69-bd30-921f5cb6a62c")
+	)
 	(label "D_{IN}"
 		(at 213.36 40.64 0)
 		(effects
@@ -3395,6 +3405,16 @@
 			(justify left bottom)
 		)
 		(uuid "3c9f00a7-be44-49ff-ae84-e851c13255b3")
+	)
+	(label "regulator_in"
+		(at 102.87 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6f3c51f4-a2e0-4d14-a19d-d3077f3217ba")
 	)
 	(label "D_{IN}"
 		(at 142.24 102.87 180)
@@ -3408,7 +3428,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 140.97 33.02 270)
+		(at 146.05 33.02 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3417,7 +3437,7 @@
 		(fields_autoplaced yes)
 		(uuid "07665b32-3c75-40be-8317-b03f058121ad")
 		(property "Reference" "#FLG03"
-			(at 142.875 33.02 0)
+			(at 147.955 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3446,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 144.78 33.0199 90)
+			(at 149.86 33.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,7 +3455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 33.02 0)
+			(at 146.05 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3444,7 +3464,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 33.02 0)
+			(at 146.05 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +3473,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 140.97 33.02 0)
+			(at 146.05 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_10x10"
 			(at 183.8452 38.1 0)
 			(effects
 				(font
@@ -4223,7 +4243,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 139.7 30.48 0)
+		(at 144.78 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4232,7 +4252,7 @@
 		(fields_autoplaced yes)
 		(uuid "7755c183-b33f-4bc6-b1ed-32bb34014f91")
 		(property "Reference" "#PWR013"
-			(at 139.7 34.29 0)
+			(at 144.78 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4261,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 139.7 25.4 0)
+			(at 144.78 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4249,7 +4269,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 30.48 0)
+			(at 144.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4258,7 +4278,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 30.48 0)
+			(at 144.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4267,7 +4287,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 139.7 30.48 0)
+			(at 144.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

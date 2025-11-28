@@ -1941,7 +1941,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1d33f54-a70c-4897-be4e-87ad85a9fbdd")
 		(property "Reference" "R2"
@@ -1962,7 +1962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMD:0603_1608Metric_DNI_NoPaste"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 137.16 36.83 0)
 			(effects
 				(font
