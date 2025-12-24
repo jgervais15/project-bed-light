@@ -1953,7 +1953,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Vchoice"
+		(property "Value" "52.3k"
 			(at 139.7 38.0999 0)
 			(effects
 				(font
